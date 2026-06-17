@@ -76,5 +76,5 @@ Dataset: 314 locations, 2 buses, depot at location #67 (Gedimino pilis)
 
 ## Authors
 
-Developed as part of the IP (Inžinerinis Projektas) module at KTU.  
+Developed as part of the IP (Inžinerinis projektas) for Algorithm development and analysis module at KTU.  
 **Kipras Rudzinskas** — algorithm implementation, parallelisation, visualisation.
