@@ -30,8 +30,14 @@ Each algorithm produces:
 
 ## How to Run
 
-**Requirements:** .NET 8 SDK, input file `IP_places_data_2026.xlsx` in the project root.
+### Option 1 — Docker (recommended, no setup required)
+```bash
+docker pull ghcr.io/kimasitas/vrp-algorithms:latest
+docker run ghcr.io/kimasitas/vrp-algorithms:latest
+```
 
+### Option 2 — Local .NET
+**Requirements:** .NET 8 SDK, input file `IP_places_data_2026.xlsx` in the project root.
 ```bash
 dotnet run
 ```
@@ -44,6 +50,7 @@ Output PNGs are saved to the working directory.
 - ExcelDataReader — Excel input parsing
 - ScottPlot — route visualisation
 - `Parallel.For` — multi-core parallelism
+- Docker — multi-stage build, published to GitHub Container Registry
 
 ## Project Structure
 
